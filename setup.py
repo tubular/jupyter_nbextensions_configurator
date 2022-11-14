@@ -24,7 +24,7 @@ In addition, for nbextensions which include an appropriate yaml descriptor
 file, the interface also provides controls to configure the nbextensions'
 options.
 """,
-        version='0.5.0',
+        version='0.5.0.dev0',
         author='jcb91, jupyter-contrib developers',
         author_email='joshuacookebarnes@gmail.com',
         url=('https://github.com/'
@@ -80,9 +80,6 @@ options.
                 'jupyter-nbextensions_configurator = jupyter_nbextensions_configurator.application:main',  # noqa
             ],
         },
-        scripts=[os.path.join('scripts', p) for p in [
-            'jupyter-nbextensions_configurator',
-        ]],
         classifiers=[
             'Intended Audience :: End Users/Desktop',
             'Intended Audience :: Science/Research',
